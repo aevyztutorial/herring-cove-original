@@ -9,3 +9,25 @@
 <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif] d-->
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "transparent",
+      "border": "#d90006",
+      "text": "#d90006"
+    }
+  },
+  "content": {
+    "message": "This is the original Herring-Cove Website, unaltered.  This is for the tutorials on my site. ",
+    "dismiss": "Main Site",
+    "link": ""
+  }
+})});
+</script>
